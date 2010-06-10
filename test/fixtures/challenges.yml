@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  winner_id: 1
+  points: 1
+  message: MyText
+  start: 2010-05-22 07:15:23
+  complete: 2010-05-22 07:15:23
+
+two:
+  name: MyString
+  winner_id: 1
+  points: 1
+  message: MyText
+  start: 2010-05-22 07:15:23
+  complete: 2010-05-22 07:15:23

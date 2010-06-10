@@ -1,0 +1,23 @@
+@import 'screen';
+
+body{
+  background-color: black;
+  color: white;
+  @include blueprint-typography(true);
+  @include container;
+} 
+
+.logins{
+  @include column( 24 );
+  @include push( 5 );
+  .team { @include column( 7 ); }
+  .admin { @include column( 7, true ); }
+}
+
+.box{
+  background-color: white;
+  color: black;
+  font-size: 16;
+  margin: 10px;
+  @include border-radius;
+}
