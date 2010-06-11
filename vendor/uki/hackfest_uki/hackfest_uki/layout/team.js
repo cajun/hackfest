@@ -30,7 +30,7 @@ hackfest_uki.layout.team = function() {
                     { view: 'List', rect: '755 100', anchors: 'top left right bottom' }
                   ]}
               ]
-            },
+            }
           ], 
           bottomChildViews: [
             {view: 'Box', rect: '60 40 930 768', anchors: 'top left right bottom', 

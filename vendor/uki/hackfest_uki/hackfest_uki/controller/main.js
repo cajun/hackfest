@@ -31,10 +31,6 @@ hackfest_uki.controller.main = function() {
 
 
   context.attachTo(window,'1000 1000');
-  uki('#clock')[0].execute();
-  uki('#chart')[0].execute();
-  uki('#ball')[0].execute();
-
   
   hideAllChildren();
   login.visible(true);

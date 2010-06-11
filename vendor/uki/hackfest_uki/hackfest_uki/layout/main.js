@@ -8,8 +8,8 @@ hackfest_uki.layout.main = function() {
             { view: 'Button', rect:'5 5 40 40', anchors: 'left top', text: 'Dash' },
             { view: 'Button', rect:'5 50 40 40', anchors: 'left top', text: 'Team' },
             { view: 'Button', rect:'5 95 40 40', anchors: 'left top', text: 'Event' },
-            { view: 'Button', rect:'5 140 40 40', anchors: 'left top', text: 'Fight' },
-          ]},
+            { view: 'Button', rect:'5 140 40 40', anchors: 'left top', text: 'Fight' }
+          ]}
         ]}
     );
 }

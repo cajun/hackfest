@@ -36,9 +36,6 @@ include('hackfest_uki/layout/dashboard.js');
 include('hackfest_uki/layout/team.js');
 include('hackfest_uki/layout/event.js');
 include('hackfest_uki/layout/fight.js');
-include('hackfest_uki/view/clock.js');
-include('hackfest_uki/view/chart.js');
-include('hackfest_uki/view/ball.js');
 include('hackfest_uki/layout/login.js');
 include('hackfest_uki/controller/login.js');
 

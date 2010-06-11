@@ -1,3 +1,6 @@
+.DS_Store
+
+*.swp
 log/
 db/schema.rb
 db/*.sqlite3
