@@ -38,6 +38,7 @@ include('hackfest_uki/layout/event.js');
 include('hackfest_uki/layout/fight.js');
 include('hackfest_uki/layout/login.js');
 include('hackfest_uki/controller/login.js');
+include('hackfest_uki/layout/register_popup.js');
 
 
 uki.theme.airport.imagePath = 'i/';
