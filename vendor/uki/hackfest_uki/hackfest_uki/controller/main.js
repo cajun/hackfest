@@ -29,9 +29,8 @@ hackfest_uki.controller.main = function() {
       content.append(screen);
   });
 
+  if (!window.TESTING) context.attachTo(window,'1000 1000'); 
 
-  context.attachTo(window,'1000 1000');
-  
   hideAllChildren();
   login.visible(true);
   dashboard.visible(true);
