@@ -11,9 +11,4 @@ hackfest_uki.controller.login = function() {
   uki('#register').click( function(){
     uki('#register_popup').toggle();
   });
-
-  function register (username, password, password_confirmation) {
-    return true;
-  }
-
 }

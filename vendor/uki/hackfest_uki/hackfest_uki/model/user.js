@@ -5,5 +5,7 @@ hackfest_uki.model.User = uki.newClass(uki.data.Model, function(Base) {
 });
 
 hackfest_uki.model.User.register = function( username, password, password_confirmation) {
-
+  var user = new hackfest_uki.model.User();
+  user.username = username;
+  return user;
 };
